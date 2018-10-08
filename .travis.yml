@@ -1,9 +1,11 @@
 language: java
+sudo: false
+install: true
 addons:
   sonarcloud:
     organization: nmhill-github
     token:
-      secure: SONAR_TOKEN
+      secure: FCdXclaf9KM1BcsOTxJUVkrZeajB5iihgak3NT2JuJd98HhX92IT+R2rCPhBjSuvXzLs4x4t8tX0nfVyoiXT1QlKbu/ioO6NgsQqL3EPd2j7grC17Loy8w3A/iTVrcHw1hVhprYuNgxyL2EapzmU9ZxrzYMEQBI8z23vKZbsMvpnqaGVd8XDQqGBrS7hPG3jPxS/MEZGSblenQfYKZ7QUYyjzMLyotb2jXjgMA/Z8CRd7bcjkD1A+KaZbOlBFeqVGrppYjJFg8aSP+xj1vdHUD4jBbshhbhpXnsJ1CgXhSeQ5nXg7lOVBLB/RdDJirdfTyoF6iyhDdUIledMivhRhx0cjejoHj0bB3X/F/VdXH1uwIvbd84ljDEh6C3SCnzv1z1EdiQb7Jk1gamiSGGq8tEJhZtpxPXsM438wnNQv+TBd7YLx8QD0qIoNkky6y0KKz5y2G7fM5pix7uo6KtAMd1ZEoea7xFO53zs8rmQUV12MDSPD5q1cKDnrUHE9nJl9pVXYGW+fyHGG42QM/PjIhxcM2xWqNtoxZesih94qzdicM3v972Fr6IU7z7uO0G/lEvYNvijdJSV/A56H41mBXs/SMCq4E27c2xR6HvX8D+42+5RfoA553wMWivOWMRGAi1mmdM8rlICPbrJT+MEzLVHrJ4fZ5C+rQAVTFAXNJM=
 jdk:
   - oraclejdk10
 script:
